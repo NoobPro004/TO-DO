@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            /* 1 rem -> 16px */
+            font-size: 63.5%;
+        }
+        .box{
+            border: 1px solid;
+        }
+        .one{
+            /* relative unit */
+            width:10rem;
+            height:10rem;
+            background-color: chartreuse;
+        }
+        .two{
+            /* absolute unit */
+            width:100px;
+            height:100px;
+            background-color: crimson;
+        }
+        /* view height and view width */
+        /* 100vw -> browser screen width */
+        /* 100vh -> browser screen height */
+        .three{
+            background-color: cyan;
+            width:10vw;
+            height: 10vh;
+        }
+        .parent{
+            width:20rem;
+            height:20rem;
+            background-color: black;
+        }
+        /* percentage is relative to parent */
+        .child{
+            width:50%;
+            height:50%;
+            background-color:crimson;
+        }
+    </style>
+</head>
+<body>
+    <div class="box one"></div>
+    <div class="box two"></div>
+    <div class="box three"></div>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    background-color: #30336b;
+}
+
+.main-container{
+    text-align: center;
+    color:white;
+    font-family: 'Girassol', cursive;
+}
+.task{
+list-style:none;
+color: white;
+background-color: rgb(71, 255, 169);
+font-size: 1.5rem;
+font-family: 'Girassol', cursive;
+margin-top: 1rem;
+/* margin: 0px auto; */
+}
+.task-list{
+    width: 70vw;
+    margin: 0px auto;
+    padding:0px;
+}
+.input-container{
+    height:20vh;
+    border: 5px solid;
+}
+
+.action{
+    color: white;
+    font-size: 3rem;
+
+}
+.input-box{
+    width:70%;
+    height:30%;
+    font-family: 'Girassol', cursive;
+    /* display:block used to convert inline-block to block type */
+    display: block;
+    margin:0px auto;
+    margin-top:2.2rem
+}
